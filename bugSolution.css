@@ -1,0 +1,13 @@
+The following CSS code fixes the bug by explicitly setting the width of the parent container:
+
+```css
+.parent {
+  width: 100%; /* or a specific pixel width */
+}
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+By setting the parent's width to 100% of its containing element, or to a specific pixel value, we remove the ambiguity and ensure that the divs correctly occupy 50% of the parent's width consistently across all browsers.
